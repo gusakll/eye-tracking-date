@@ -1,0 +1,246 @@
+/*****************/
+/* RESETTING CSS */
+/*****************/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin : 0;
+  padding : 0;
+  border : 0;
+  font-size : 100%;
+  font : Times;
+  vertical-align : baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display : block;
+}
+body {
+  line-height : 1;
+}
+ol, ul {
+  list-style : none;
+}
+blockquote, q {
+  quotes : none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content : '';
+  content : none;
+}
+table {
+  border-collapse : collapse;
+  border-spacing : 0;
+}
+
+/***********/
+/* THE CSS */
+/***********/
+
+html, body {
+  background: url(http://vision.imar.ro/human3.6m/Images/websitebackground.jpg) center center no-repeat fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  text-align: center; /*For IE6 Shenanigans*/
+  font-size:100%;
+}
+html {
+	overflow: -moz-scrollbars-vertical; 
+	overflow-y: scroll;
+}
+#pageWrapper {
+  position: relative;
+ /* width: 976px;  973 */
+  width: 1060px;
+  margin: 0 auto;
+  text-align: left;
+  font-family : sans-serif;
+  font-size: 0.875em;
+}
+/* #logo {
+  position: relative;
+  display: block;
+  background: url(http://vision.imar.ro/human3.6m/Images/title.jpg) no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  width: 100%;
+  height: 350px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #000;
+  float: left;
+} */
+#logo {
+  background: url(../微信图片_20240515110353.png) no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: white;
+  width: 100%;
+  height: 350px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #000;
+  float: left;
+}
+#page {
+  position: relative;
+  background : url(../微信图片_20240515110219.jpg) no-repeat;
+  background-size : 100% 100%;
+  width: 100%;
+  border: 1px solid #000;
+  border-top: 0px;
+  float: left;
+  min-height: 500px;
+}
+ul.menu {
+  position: relative;
+  background-image : url(http://vision.imar.ro/human3.6m/Images/menubg.png);
+  width : 100%;
+  height : 40px;
+  border : 1px solid #000;
+  list-style-type : none;
+  clear : both;
+ /* overflow : hidden;*/
+  font-size : 0.875em;
+  display : block;
+  float: left;
+}
+ul.menu a {
+  padding-right : 20px;
+  padding-left : 20px;
+  display : inline-block;
+  line-height : 40px;
+  text-decoration : none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-family : Georgia, "Times New Roman", Times, serif;
+  font-weight : bold;
+  font-size : 1.2em;
+  color:#d6cfb7;
+}
+ul.menu a.selected {
+  background-image : url(http://vision.imar.ro/human3.6m/Images/menufg.png);
+  color : #eef;
+}
+ul.menu a:hover {
+  background-image : url(http://vision.imar.ro/human3.6m/Images/menuhover.png);
+  color : #fff;
+}
+li.menu {
+  border-right : 1px solid #000;
+  float : left;
+  display : inline-block;
+  list-style-type : none;
+}
+table.full, table.full tr, table.full td, table.full th {
+  color:#b8b4a7;
+  border:1px solid #ccc;
+  margin:10px 10px 10px 10px;
+  text-align: left;
+}
+table.full td {
+  padding:5px 5px 5px 5px;
+}
+.form input, .form textarea, .form tr, .form td {
+  padding: 2px;
+  margin: 2px;
+}
+tc {
+  margin: 3px 6px; 
+  display: block;
+}
+p, div.p {
+  margin : 15px 30px;
+  color : #b8b4a7;
+  	font-size: 1.0rem;
+	line-height: 1.2rem;
+}
+.date {
+  display:inline;
+  font-weight: bold;
+  color: #ccc;
+}
+.results {
+  border: 1px solid #777;
+  background-color: #333;
+  display : block;
+  margin : 20px 30px;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.mylink a:link {text-decoration: underline; color: white; font-weight:normal;}
+.mylink a:visited {text-decoration: underline; color: white; font-weight:normal;}
+.mylink a:active {text-decoration: underline; color: red; font-weight:normal;}
+.mylink a:hover {text-decoration: underline; color: #ddd; font-weight:normal;}
+.mylink2 {text-decoration: underline; color: white; font-weight:normal;}
+.mylink2:hover {text-decoration: underline; color: #ddd; font-weight:normal; cursor:pointer;}
+img {
+   display:inline-block;
+   margin:5px;
+}
+
+ul.ul_description {
+	font-size: 1.0rem;
+	color : #b8b4a7;
+	padding-left: 2rem;
+	line-height: 1.2rem;
+}
+li.li_description {
+	margin: 1rem;
+	padding: 0rem;
+	padding-left: 0rem;
+}
+li.li_description_readme {
+
+	
+}
+/*
+ * Paragraphs that appear in an <li> tag in the description section.
+ */
+p.para_li {
+	font-size: 1.0rem;
+	line-height: 1.2rem;
+	text-indent: 0rem;
+	margin: 0rem;
+}
+
+p.para_li_nospace {
+	font-size: 1.0rem;
+	line-height: 1.2rem;
+	text-indent: 0rem;
+	margin: 0rem;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+/*
+ * Paragraphs that appear in the dataset description tabs.
+ */
+p.para_description {
+	font-size: 1.0rem;
+	line-height: 1.2rem;
+}
+
+p.para_readme {
+	font-size: 1.0rem;
+	line-height: 1.2rem;
+}
+
+/*
+ * Paragraphs that appear in the dataset description tabs.
+ */
+p.para_h2 {
+	font-size: 1.3rem;
+	color: white;
+	font-weight: bold;
+	text-indent: -1rem;
+}
+
